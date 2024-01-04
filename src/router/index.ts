@@ -24,6 +24,38 @@ const routes: Array<RouteRecordRaw> = [
     component: () => import(/* webpackChunkName: "about" */ '../views/bosung/findid.vue')
   },
   {
+    path: '/login',
+    name: 'login',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "about" */ '../views/jihwan/login.vue')
+  },
+  {
+    path: '/join',
+    name: 'join',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "about" */ '../views/jihwan/join.vue')
+  },
+  {
+    path: '/ingredientsplus',
+    name: 'ingredientsplus',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "about" */ '../views/jihwan/ingredientsplus.vue')
+  },
+  {
+    path: '/refrigeratorcheck',
+    name: 'refrigeratorcheck',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "about" */ '../views/jihwan/refrigeratorcheck.vue')
+  },
+  {
     path: '/findpassword',
     name: 'findpassword',
     // route level code-splitting
