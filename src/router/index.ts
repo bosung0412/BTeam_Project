@@ -22,6 +22,30 @@ const routes: Array<RouteRecordRaw> = [
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "about" */ '../views/bosung/findid.vue')
+  },
+  {
+    path: '/findpassword',
+    name: 'findpassword',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "about" */ '../views/bosung/findpassword.vue')
+  },
+  {
+    path: '/resultfindid',
+    name: 'resultfindid',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "about" */ '../views/bosung/resultfindid.vue')
+  },
+  {
+    path: '/resultpassword',
+    name: 'resultpassword',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "about" */ '../views/bosung/resultpassword.vue')
   }
 ]
 
